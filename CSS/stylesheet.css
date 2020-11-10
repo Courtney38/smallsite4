@@ -1,0 +1,998 @@
+
+
+.navbar{
+    color: white; 
+    text-align: center;
+    background-color: black; 
+    position: relative; 
+    right: 7px;
+    width: 1345px;
+    height: 60px;
+    top: -15px;
+    font-family: 'Cabin';
+    text-decoration: none;  
+    font-size: 15pt; 
+    text-align: left;
+}
+
+.navbar .home{
+    text-decoration: underline;
+    color: yellow; 
+}
+
+.navbar .about{
+    text-decoration: underline;
+    color: yellow;
+}
+
+.navbar .gallery{ 
+    text-decoration: underline;
+    color: yellow; 
+
+}
+
+.navbar .discography{ 
+    text-decoration: underline; 
+    color: yellow;
+
+}
+
+.navbar .merch{ 
+    text-decoration: underline; 
+    color: yellow;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    padding: 13pt;
+    font-weight: 600;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none; 
+    font-size: 24px;  
+    top: 15px;
+    text-align: center;
+    text-transform: uppercase; 
+    position: relative; 
+}
+
+.navbar ul li a:hover{ 
+    color: yellow; 
+}
+
+
+.hover_img{ 
+    width: 75%; 
+    height: 75;
+    opacity: 100%; 
+    filter: grayscale(80%);
+    position: relative; 
+    width: 1340px;
+    top: -11px;
+    left: -4px;
+
+}
+
+.hover_img:hover{ 
+    filter: grayscale(0%);
+
+}
+
+.KeithUrban{ 
+   grid-column: 1; 
+   grid-row: 1; 
+   position: relative; 
+   right: 3px;
+   text-align: center;
+   width: 475px;
+   height: 70px;
+}
+
+
+.KeithUrban2{ 
+  position: relative; 
+  color: yellow; 
+  text-align: center; 
+  font-size: 20pt;
+  top: -10px;
+
+}
+
+body{  
+  font-family: 'Cabin';
+  font-size: 15pt; 
+  background-color: #f49f4a;
+}
+
+.container-about {
+   display: grid;
+   grid-template-columns: repeat(8, 500px); 
+   grid-template-rows: 50px 800px 500px; 500px; 
+   grid-gap: 20px;
+}
+
+.Self-Portrait{ 
+    grid-column: 1;
+    grid-row: 2; 
+    position: relative; 
+    top: -20px;
+    right: -5px;
+}
+
+.KeithUrban{  
+    color: white; 
+    font-weight: 900; 
+    font-size: 20pt;
+    position: relative; 
+    right: 110px;
+    color: yellow; 
+    top: -10px;
+}
+
+.bio{ 
+   grid-column: 2;
+   grid-row: 2;
+   text-align: left; 
+   text-indent: 1px;
+   font-weight: normal;
+   position: relative; 
+   top: -20px;
+   font-size: 15pt;
+   right: -15px;
+   
+}
+
+.genre{
+    color: yellow;
+    font-size: 18pt;
+    
+}
+
+.music{
+    grid-column:1;
+    grid-row:3;
+    position:relative;
+    font-size: 18pt;
+    right: -20px;
+    top: -18px;
+}
+
+.sound{ 
+    color: yellow;
+    font-weight:;
+    font-size: 18pt;
+
+}
+
+.instruments{
+    grid-column: 2;
+    grid-row: 3;
+    position: relative;
+    font-size: 18pt;
+    right: 2px;
+    top: -19px;
+    
+}
+
+.labels{
+    grid-column: 3;
+    grid-row: 3;
+    position: relative; 
+    font-size: 18pt;
+    right: 2px;
+    top: -19px;
+}
+
+.records{ 
+    color: yellow;  
+}
+
+.family{
+    grid-column: 1; 
+    grid-row: 4;
+    position: relative;
+    top: -20px;
+    right: -10px;
+    
+}
+
+.children{ 
+    grid-column: 1; 
+    grid-row: 5;
+    text-align: center;
+    font-size: 12pt;
+    position: relative;
+    top: 10px;
+    font-weight: 600; 
+    right: -90px;
+}
+
+.wife{
+    grid-column: 2;
+    grid-row: 4; 
+    position: relative;
+    right: -140px;  
+    top: -10px;
+}
+
+.text{ 
+    text-align: center;
+    text-indent: 230px;
+    font-size: 12pt;
+    font-weight: 600;
+    position: relative; 
+    top: -10px;
+    right: -25px;
+}
+
+.container-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    font-family: 'Cabin';
+    font-size: 15px;
+    font-weight: normal; 
+    text-align: left;
+    grid-gap: 20px;
+}
+
+.title{ 
+    grid-column: 2; 
+    grid-row: 1; 
+    text-align: center; 
+    right: 755px;
+    position: relative; 
+    top: 40px;
+}
+
+.car{ 
+  grid-column: 1;
+  grid-row: 3;
+  position: relative;
+  right: 45px;
+  text-align: center;
+  font-weight: normal; 
+  font-size: 13pt;
+  color: white;
+}
+
+.openmouth{ 
+    background-color: black; 
+    position: relative; 
+    width: 300px;
+    right: -180px;
+}
+
+
+.whitejacket{ 
+   grid-column: 2; 
+   grid-row: 3;
+   position: relative; 
+   right: 10px;
+   text-align: center; 
+   font-size: 13pt;
+   color: white;
+}
+
+.redguitar{ 
+    background-color: black; 
+    position: relative; 
+    width: 300px;
+    right: -180px;
+}
+
+.Judges{ 
+    grid-column: 1; 
+    grid-row: 4; 
+    position: relative; 
+    right: 30px;
+    text-align: center;
+    font-size: 14pt;
+    color: white;
+}
+
+.americanidolposterbackground{ 
+    background-color: black; 
+    position: relative; 
+    width: 570px;
+    right: -45px;
+}
+
+.Panel{ 
+   grid-column: 2; 
+   grid-row: 4;
+   font-weight: normal; 
+   font-size: 11pt;
+   text-align: center; 
+   position: relative; 
+   right: 6pt;
+   color: white; 
+}
+
+.panel2{ 
+    background-color: black; 
+    position: relative; 
+    width: 540px;
+    height: 20px;
+    right: -60px;
+}
+
+.AmericanIdol1{ 
+     grid-column: 1; 
+     grid-row: 5; 
+     position: relative; 
+     right: 30px;
+     text-align: center;
+     font-weight: normal;
+     font-size: 16pt;
+     color: white;
+}
+
+.photoup{ 
+    background-color: black; 
+    position: relative; 
+    width: 300px;
+    right: -180px;
+    height: 30px;
+}
+
+.whiteshirt{
+    grid-column: 2; 
+    grid-row: 5; 
+    text-align:center; 
+    font-size: 15pt;
+    position: relative;
+    right: -10px;
+    color: white;
+}
+
+.rockingout{ 
+    background-color: black; 
+    position: relative; 
+    width: 300px;
+    height: 30px;
+    right: -180px;
+}
+
+.Guitar{ 
+   grid-column: 2; 
+   grid-row: 6; 
+   font-size: 15pt;
+   text-align: center; 
+   color: white;
+}
+
+.redandblack{ 
+    background-color: black; 
+    position: relative; 
+    width: 370px;
+    height: 30px;
+    right: -140px;
+}
+
+.rocking{ 
+   grid-column: 1; 
+   grid-row: 6;
+   text-align: center; 
+   font-size:  15pt;
+   position: relative; 
+   right: 30px;
+   color: white;
+}
+
+.black{ 
+    background-color: black; 
+    position: relative; 
+    width: 330px;
+    height: 30px;
+    right: -130px;
+}
+
+.Stage{ 
+   grid-column: 1; 
+   grid-row: 7;
+   text-align: center;
+   font-size: 15pt;
+   position: relative;
+   right: 30px;
+   color: white;
+}
+
+.smiling{ 
+    background-color: black; 
+    position: relative; 
+    width: 375px;
+    height: 30px;
+    right: -125px;
+}
+
+.performing{ 
+    grid-column: 2;
+    grid-row: 7;
+    text-align: center;
+    font-size: 15pt; 
+    color: white;
+}
+
+.blackclothes{ 
+    background-color: black; 
+    position: relative; 
+    width: 300px;
+    height: 30px;
+    right: -180px;
+}
+
+.idol{ 
+   grid-column: 1; 
+   grid-row: 8; 
+   text-align: center; 
+   font-weight: normal; 
+   font-size: 16pt;
+   position: relative;
+   right: 30px;
+   color: white;
+}
+
+.blue{ 
+    background-color: black; 
+    position: relative; 
+    width: 525px;
+    height: 30px;
+    right: -60px;
+}
+
+.orange{ 
+    grid-column: ; 
+    grid-row: 8; 
+    text-align: center;
+    font-size: 15pt;
+    color: white;
+}
+
+.tiedye{ 
+    background-color: black; 
+    position: relative; 
+    width: 300px;
+    height: 30px;
+    right: -180px;
+}
+
+.container-discography {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    text-align: center;
+    grid-gap: 20px;
+}
+
+.studios{ 
+    grid-column: 1; 
+    grid-row: 1; 
+    position: relative; 
+    top: 40px; 
+    right: -10px;
+    font-family: sans-serif; 
+    font-size: 14pt;
+    text-align: left;
+    color: black;
+}
+
+.Album1{ 
+     grid-column: 1; 
+     grid-row: 2; 
+     position: relative; 
+     top: -140px;
+     right: 10px;
+     font-weight: 600; 
+     padding: 3px;
+     font-size: 16pt;
+}
+
+.Album2{ 
+     grid-column: 2; 
+     grid-row: 2;
+     position: relative; 
+     top: -140px; 
+     right: 30px;
+     font-size: 12pt;
+     font-weight: 600;
+     padding: 3px;
+}
+
+.Album3{ 
+     grid-column: 3; 
+     grid-row: 2; 
+     position: relative; 
+     right: 30px;
+     top: -140px;
+     font-weight: 600; 
+     padding: 3pt;
+}
+
+.songtitles1{ 
+   color: yellow;
+   font-size: 12pt;
+   text-align: left;
+   position: relative; 
+   right: -350px;
+   top: 475px;
+}
+
+.songs1{ 
+    font-weight:100; 
+    font-style: italic;
+    font-size: 12pt; 
+    padding: 3pt;
+    text-align: left;
+    position: relative;
+    right: -5px;
+    top: 510px;
+}
+
+.Album4{ 
+    grid-column: 4; 
+    grid-row: 2;
+    font-weight: 600;
+    position: relative; 
+    top: -140px; 
+    right: 50px;
+}
+
+.songtitles2{
+   color: yellow;
+   font-size: 12pt;
+   text-align: left; 
+   position: relative; 
+   right: 5px;
+   top: 478px;
+}
+
+.songs2{ 
+    font-style: italic;
+    font-size: 12pt;
+    text-align: left; 
+    position: relative; 
+    right: -670px;
+    padding: 2pt; 
+    top: -145px; 
+}
+
+.Album5{ 
+     grid-column: 1; 
+     grid-row: 3; 
+     position: relative; 
+     font-weight: 600;
+     right: 12px;
+     top: -10px;
+}
+
+.songtitles3{ 
+   color: yellow;
+   font-size: 12pt;
+   position: relative; 
+   right: 1105px;
+   top: 275px;
+}
+
+.songs3{  
+    font-style: italic;
+    font-size: 12pt;
+    position: relative; 
+    right: 90px;
+}
+
+.Album6{ 
+     grid-column: 3; 
+     grid-row: 3; 
+     position: relative; 
+     font-weight: 600;
+     font-size: 9pt;
+     top: -10px;
+     right: 360px; 
+}
+
+.Album7{ 
+     grid-column: 3; 
+     grid-row: 3; 
+     position: relative;
+     font-weight: 600;
+     top: -10px; 
+     right: 30px;
+}
+
+.songtitles4{ 
+   color: yellow;
+   font-size: 12pt;
+   position: relative;
+   right: -230px;
+   top: -45px;
+}
+
+.songs4{ 
+    font-weight:100; 
+    font-style: italic;
+    font-size: 12pt;
+    position: relative;
+    right: -10px;
+    text-align: left;
+}
+
+.Album8{ 
+     grid-column: 3; 
+     grid-row: 3; 
+     position: relative; 
+     font-weight: 600;
+     top: -10px; 
+     right: -290px;
+}
+
+.songtitles5{ 
+   color: yellow;
+   font-size: 12pt;
+   position: relative; 
+   text-align: left;
+   top: -45px;
+}
+
+.songs5{  
+    font-style: italic;
+    font-size: 12pt;
+    position: relative; 
+    text-align: left;
+    right: -1008px;
+    top: -108px;
+}
+
+.Album9{ 
+     grid-column: 1;
+     grid-row: 6;
+     position: relative;
+     font-weight: 600;
+     right: 10px;
+}
+
+.songtitles6{ 
+   color: yellow;
+   font-size: 12pt;
+   text-align: left;
+   position: relative;
+   right: 305px;
+   top: 400px;
+}
+
+.songs6{ 
+    font-style: italic;
+    font-size: 12pt;
+    text-align: left;
+    position: relative;
+    right: 645px;
+    top: 430px;
+}
+
+.Album10{ 
+     grid-column: 2; 
+     grid-row: 6; 
+     position: relative; 
+     right: 10px;
+     font-weight: 600; 
+}
+
+.songtitles7{ 
+   color: yellow;
+   font-size: 12pt;
+   position: relative; 
+   right: 765px;
+   top: 396px;
+
+}
+
+.songs7{ 
+    font-style: italic;
+    font-size: 12pt;
+    text-align: left;
+    position: relative; 
+    right: 645px;
+    top: 330px;
+
+}
+
+.Album11{ 
+    grid-column: 3; 
+    grid-row: 6; 
+    position: relative;
+    font-weight: 600; 
+    right: 25px;
+
+}
+
+.songtitles8{ 
+   color: yellow;
+   font-size: 12pt;
+   text-align: left;
+   position: relative;
+   right: -700px;
+   top: -28px;
+
+}
+
+.songs8{ 
+    font-style: italic;
+    font-size: 12pt;
+    text-align: left;
+    position: relative; 
+    right: -355px;
+    top: 10px;
+      
+}
+
+.Album12{ 
+     grid-column: 3; 
+     grid-row: 6; 
+     position: relative; 
+     right: -300px;
+     font-size: 12pt; 
+     font-weight: 600; 
+}
+
+.songtitles9{ 
+   color: yellow;
+   font-size: 12pt;
+   text-align: left;
+   position: relative; 
+   right: -345px;
+   top: -30px;
+
+}
+
+.songs9{ 
+    font-style: italic;
+    font-size: 12pt;
+    text-align: left;
+    position: relative;
+    top: 5pt;
+
+}
+
+.container-merch {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+    font-family: 'Cabin';
+    font-size: 18px;
+    font-weight: normal; 
+    text-align: left;
+    grid-row-gap: 10px;
+}
+
+.souvenir{ 
+   grid-column: 1/3; 
+   grid-row: 2;
+   position: relative;
+   text-align: center; 
+   top: -300px;
+   font-size: 12pt;
+}
+
+.logo-tee{ 
+    grid-column: 1; 
+    grid-row: 2; 
+    position: relative; 
+    right: -35px;
+    text-align: center;
+    top: -100px;
+}
+
+.live{
+     background-color: black; 
+     width: 230px;
+     height: 25px;
+     position: relative; 
+     color: white;
+     right: -40px;
+     top: 6px;
+    
+}
+
+.Hoodie{ 
+   grid-column: 2; 
+   grid-row: 2; 
+   position: relative; 
+   right: -200px; 
+   top: -120px;
+   text-align: center;
+}
+
+.peacesign1{
+     background-color: black;
+     position: relative;
+     width: 200px;
+     right: -50px;
+     color: white; 
+     height: 25px;
+     top: -10px;
+}
+
+.Long-Sleeve{ 
+    grid-column: 3; 
+    grid-row: 2; 
+    position: relative; 
+    right: -300px;
+    top: -120px;
+    text-align: center;
+
+}
+
+.peacesign2{
+     background-color: black;
+     position: relative; 
+     width: 308px;
+     color: white; 
+     height: 25px;
+     right: -15px;
+     top: -10px;
+}
+
+.GuitarSmashTeeFront{ 
+    grid-column: 1; 
+    grid-row: 3; 
+    position: relative; 
+    right: -45px;
+    text-align: center;
+    top: -40px;
+}
+
+.guitarsmash1{
+     background-color: black;
+     position: relative;
+     width: 300px;
+     right: -20px;
+     color: white; 
+     height: 25px;
+}
+
+.GuitarSmashTeeBack{
+    grid-column: 2; 
+    grid-row: 3; 
+    position: relative; 
+    right: -195px;
+    text-align: center;
+    top: -40px;
+}
+
+.guitarsmash2{
+     background-color: black;
+     color: white; 
+     height: 25px;
+}
+
+.BlackBrickWallTeeFront{ 
+    grid-column: 3; 
+    grid-row: 3; 
+    position: relative; 
+    right: -310px;
+    text-align: center;
+    top: -40px;
+}
+
+.vegas1{
+     background-color: black;
+     position: relative; 
+     width: 315px;
+     color: white; 
+     height: 25px;
+}
+
+.BlackBrickWallTeeBack{ 
+    grid-column: 1; 
+    grid-row: 4;
+    position: relative; 
+    right: -60px;
+    text-align: center;
+    top: 40px;
+}
+
+.vegas2{
+     background-color: black;
+     position: relative; 
+     color: white; 
+     height: 25px;
+     right: -10px;
+     width: 320px;
+     top: -10px;
+}
+
+.Vegas2020T-ShirtFront{ 
+    grid-column: 2; 
+    grid-row: 4; 
+    position: relative; 
+    right: -195px;
+    text-align: center;
+    top: 40px;
+}
+
+.vegas3{
+     background-color: black;
+     color: white; 
+     height: 25px;
+     position: relative;
+     top: -10px;
+     width: 305px;
+}
+
+.Vegas2020T-ShirtBack{ 
+     grid-column: 3; 
+     grid-row: 4; 
+     position: relative;
+     right: -315px;
+     text-align: center;
+     top: 40px;
+}
+
+.vegas4{
+     background-color: black;
+     color: white; 
+     height: 25px;
+     position: relative; 
+     top: -10px;
+}
+
+.Baseball-Tee{ 
+     grid-column: 1; 
+     grid-row: 5; 
+     position: relative;
+     right: -70px;
+     text-align: center;
+     top: 130px;
+}
+
+.wings{
+     background-color: black;
+     color: white; 
+     height: 25px;
+     position: relative;
+     right: -35px;
+     width: 260px;
+     top: -15px;
+}
+
+.PheonixPopSocket{ 
+     grid-column: 2; 
+     grid-row: 5; 
+     position: relative; 
+     right: -165px;
+     text-align: center;
+     top: 130px;
+}
+
+.popsocket{
+     background-color: black;
+     color: white; 
+     height: 25px;
+     position: relative;
+     right: -50px;
+     top: 10px;
+}
+
+.Sticker{ 
+    grid-column: 3; 
+    grid-row: 5;
+    position: relative; 
+    right: -325px;
+    top: 130px;
+    
+}
+
+.sticker2{
+    background-color: black;
+    color: white;
+    height: 25px;
+    position: relative;
+    right: -35px;
+    width: 250px;
+    text-align: center;
+    top: 8px;
+}
